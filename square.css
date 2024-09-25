@@ -1,7 +1,4 @@
-.container {
 
-    display: flex;
-}
 
 .triangleLime {
     width: 0;
@@ -16,5 +13,4 @@
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
     border-left: 50px solid #84c2f9;
-
 }
