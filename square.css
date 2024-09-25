@@ -1,8 +1,11 @@
 .squareRed {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-color: red;
-    border: 2px solid black;
+    transform: rotate(45deg);
+    left: 36%;
+    top: 43.5%;
+    z-index: 5000;
 }
 
 .triangleGreen {
@@ -10,44 +13,63 @@
     height: 0;
     border-bottom: 100px solid green;
     border-right: 100px solid transparent;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 33%;
+    left: 10%;
 }
 
 .triangleOrange {
     width: 0;
     height: 0;
-    border-bottom: 50px solid orange;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
+    border-bottom: 53px solid orange;
+    border-left: 53px solid transparent;
+    border-right: 53px solid transparent;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 41%;
+    left: 41.9%;
 }
 
 .triangleYellow {
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #ffee00;
+    border-top: 150px solid transparent;
+    border-right: 150px solid yellow;
+    position: absolute;
+    transform: rotate(135deg);
+    left: 55%;
 }
 
 .trapezePurple {
-    width: 200px; 
-    height: 95px; 
+    width: 105px; 
+    height: 50px; 
     background-color: #b700ff; 
-    transform: skew(20deg);
+    transform: skew(315deg);
+    position: absolute;
+    top: 33%;
+    left: 46%;
 }
 
 .triangleLime {
     width: 0;
     height: 0;
-    border-top: 100px solid transparent;
-    border-right: 90px solid #84f998;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #84f998;
+    position: absolute;
+    transform: rotate(225deg);
+    z-index: 8000;
+    top: 55%;
 }
 
 .triangleBlue {
     width: 0;
     height: 0;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    border-left: 50px solid #84c2f9;
-
+    border-top: 53px solid transparent;
+    border-bottom: 53px solid transparent;
+    border-left: 53px solid #84c2f9;
+    position: absolute;
+    transform: rotate();
+    left: 33.6%;
+    top: 49.9%;
 }
-
