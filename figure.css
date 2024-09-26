@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
     flex-wrap: wrap;
 }
 
@@ -26,7 +32,8 @@ main {
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
-    background-color: rgb(202, 204, 207);
+    flex-direction: column;
+    background-color: #f2f3f3;
     margin: 0 auto;
     }
 
