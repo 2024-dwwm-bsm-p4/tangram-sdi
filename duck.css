@@ -1,0 +1,79 @@
+.squareRed {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    transform: rotate(45deg);
+    left: 13.16%;
+    top: 26.8%;
+}
+
+.triangleGreen {
+    width: 0;
+    height: 0;
+    border-bottom: 107px solid green;
+    border-right: 107px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 57.2%;
+    left: 15.2%;
+}
+
+.triangleOrange {
+    width: 0;
+    height: 0;
+    border-bottom: 53px solid orange;
+    border-left: 53px solid transparent;
+    border-right: 53px solid transparent;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 48.3%;
+    left: -1%;
+}
+
+.triangleYellow {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid yellow;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 33%;
+    top:50%;
+    z-index: 3000;
+}
+
+.trapezePurple {
+    width: 104px; 
+    height: 53px; 
+    background-color: #b700ff; 
+    transform: skew(315deg);
+    position: absolute;
+    top: 14.2%;
+    left: -63%;
+}
+
+.triangleLime {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #84f998;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 8000;
+    top: 25%;
+    left: 43%;
+}
+
+.triangleBlue {
+    width: 0;
+    height: 0;
+    border-top: 53px solid transparent;
+    border-bottom: 53px solid transparent;
+    border-left: 53px solid #84c2f9;
+    position: absolute;
+    transform: rotate();
+    left: -63.6%;
+    top: 49.9%;
+}
+
+
