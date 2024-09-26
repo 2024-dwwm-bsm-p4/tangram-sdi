@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    flex-wrap: wrap;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+} 
+
+main {
+    /* margin: 0 auto;
+    width: 50%; */
+    /* align-items: center;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    min-width: 300px;
+    min-height: 300px;
+    border: 5px solid;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(202, 204, 207);
+    margin: 0 auto;
+    }
+
+
+/* .container > div {
+    position: absolute; Permet de positionner les formes
+} */
+
+.container * {
+    position: absolute;
+}
+
+
+.squareRed {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.triangleGreen {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid green;
+    border-right: 100px solid transparent;
+}
+
+.triangleOrange {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid orange;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.triangleYellow {
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid yellow;
+}
+
+.trapezePurple {
+    width: 200px; 
+    height: 95px; 
+    background-color: #b700ff;
+}
+
+.triangleLime {
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid #84f998;
+}
+
+.triangleBlue {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #84c2f9;
+}
