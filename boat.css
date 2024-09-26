@@ -5,6 +5,7 @@
     transform: rotate(90deg);
     left: 61.2%;
     top: 60.8%;
+    transition: all 0.5s ease-in-out;
 }
 
 .triangleGreen {
@@ -16,6 +17,7 @@
     transform: rotate(-45deg);
     top: 50.1%;
     left: 34.8%;
+    transition: all 0.5s ease-in-out;
 }
 
 .triangleOrange {
@@ -28,6 +30,7 @@
     transform: rotate(135deg);
     top: 66.9%;
     left: 46.8%;
+    transition: all 0.5s ease-in-out;
 }
 
 .triangleYellow {
@@ -40,6 +43,7 @@
     left: 61%;
     top: 24%;
     z-index: 3000;
+    transition: all 0.5s ease-in-out;
 }
 
 .trapezePurple {
@@ -50,6 +54,7 @@
     position: absolute;
     top: 63.2%;
     left: 20%;
+    transition: all 0.5s ease-in-out;
 }
 
 .triangleLime {
@@ -62,6 +67,7 @@
     z-index: 8000;
     top: 45.5%;
     left: 39.5%;
+    transition: all 0.5s ease-in-out;
 }
 
 .triangleBlue {
@@ -74,6 +80,7 @@
     transform: rotate(-135deg);
     left: 75%;
     top: 53.9%;
+    transition: all 0.5s ease-in-out;
 }
 
 
