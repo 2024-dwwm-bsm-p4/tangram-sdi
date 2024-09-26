@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    flex-wrap: wrap;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+} 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    min-width: 500px;
+    min-height: 500px;
+    border: 5px solid;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    background-color: rgb(202, 204, 207);
+    margin: 0 auto;
+    }
+
+.container * {
+    position: absolute;
+}
+
+
+.squareRed {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    transform: rotate(45deg);
+    top: 40%;
+    left: 27%;
+}
+
+.triangleGreen {
+    width: 0;
+    height: 0;
+    border-bottom: 107px solid green;
+    border-right: 107px solid transparent;
+    transform: rotate(45deg);
+    top: 64%;
+    left: 23.5%;
+}
+
+.triangleOrange {
+    width: 0;
+    height: 0;
+    border-bottom: 53px solid orange;
+    border-left: 53px solid transparent;
+    border-right: 53px solid transparent;
+    transform: rotate(90deg);
+    top: 53.5%;
+    left: 18%;
+}
+
+.triangleYellow {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid yellow;
+    transform: rotate(90deg);
+    top: 60%;;
+}
+
+.trapezePurple {
+    width: 104px; 
+    height: 53px; 
+    background-color: #b700ff; 
+    transform:rotate(90deg) skew(315deg);
+    top: 26%;
+    left: 30%;
+}
+
+.triangleLime {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #84f998;
+    transform: rotate(45deg);
+    top: 44%;
+    left: 41%;
+}
+
+.triangleBlue {
+    width: 0;
+    height: 0;
+    border-top: 53px solid transparent;
+    border-bottom: 53px solid transparent;
+    border-left: 53px solid #84c2f9;
+    transform: rotate(45deg);
+    left: 25.1%;
+    top: 16%;
+}
