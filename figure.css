@@ -228,6 +228,12 @@ nav {
     background: black;
     border: white;
     transition: 1s;
+
+}
+.dark-mode .darkmode {
+    background-image: url(./images/soleil.jpg);
+    background-size: contain; /*pour que l'image s'adapte à la taille de la box*/
+    background-position: center;
 }
 
 .dark-mode .container{
