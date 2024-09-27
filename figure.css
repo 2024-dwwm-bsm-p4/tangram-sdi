@@ -5,17 +5,30 @@
 }
 
 body {
+    
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+                 url(./images/tangram_photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
 }
 
 header {
     padding: 20px;
     text-align: center;
 } 
+
+h1 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #2096c9;
+margin: 20px;
+}
 
 main {
     display: flex;
@@ -27,13 +40,13 @@ main {
 .container {
     min-width: 500px;
     min-height: 500px;
-    border: 5px solid;
+    
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
     flex-direction: column;
-    background-color: #f2f3f3;
+    
     margin: 0 auto;
     }
 
@@ -170,17 +183,25 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #f2f3f3;
+    
 }
 .darkmode {
-   
-    width: 150px;  
+    display: flex;
+    width: 120px;  
     height: 50px;  
     font-size: 16px;
     color: #606466;
-    background-color: #17a1eb;
-    margin: 5px;
-    border-radius: 5%;
+    margin-left: auto;
+    border: 2px dotted;
     cursor: pointer;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px;
+    background-image: url(./images/ciel-etoile.jpg);
+    background-size: contain; /*pour que l'image s'adapte à la taille de la box*/
+    background-position: center;
+    
 }
 nav {
     display: flex;
