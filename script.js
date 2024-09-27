@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector(".container");
-    container.classList.add("square"); // Ajouter la classe "square" par défaut
+    container.classList.add("turtle"); // Ajouter la classe "square" par défaut
 });
     
 
@@ -89,4 +89,3 @@ const body = document.body;
 function toggleDarkMode() {
     body.classList.toggle('dark-mode');
 }
-

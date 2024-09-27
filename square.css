@@ -14,7 +14,7 @@
 .triangleGreen {
     width: 0;
     height: 0;
-    border-bottom: 100px solid green;
+    border-bottom: 100px solid #519e30;
     border-right: 100px solid transparent;
     position: absolute;
     transform: rotate(90deg);
@@ -42,7 +42,7 @@
     width: 0;
     height: 0;
     border-top: 150px solid transparent;
-    border-right: 150px solid yellow;
+    border-right: 150px solid #fef69d;
     position: absolute;
     transform: rotate(135deg);
     left: 54%;
@@ -54,7 +54,7 @@
 .trapezePurple {
     width: 105px; 
     height: 50px; 
-    background-color: #b700ff; 
+    background-color: #f4b0ed; 
     transform: skew(315deg);
     position: absolute;
     top: 28.2%;
