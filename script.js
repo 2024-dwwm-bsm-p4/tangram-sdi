@@ -1,5 +1,9 @@
-
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.querySelector(".container");
+    container.classList.add("square"); // Ajouter la classe "square" par défaut
+});
     
+
     const element = document.querySelector("body");
     
     // Récupération des balises bouton de la navbar
