@@ -6,7 +6,7 @@
     const navbuttons = document.querySelectorAll("nav button");
     
     // Créer un tableau avec les noms des formes
-    const forms2 = ["square", "cat", "swan", "duck", "heart", "turtle", "boat", "mystery1", "mystery2", "mystery3"];
+    const forms2 = ["square", "boat", "duck", "cat", "heart", "swan", "turtle", "mystery1", "mystery2", "mystery3"];
     let forms = "";
     
     // Boucle pour attribuer les noms des formes aux boutons
@@ -26,7 +26,7 @@
         const container = document.querySelector(".container");
     
         // Supprime d'abord toutes les anciennes classes de formes
-        container.classList.remove("square", "cat", "swan", "duck", "heart", "turtle", "boat", "mystery1", "mystery2", "mystery3");
+        container.classList.remove("square", "boat", "duck", "cat", "heart", "swan", "turtle", "mystery1", "mystery2", "mystery3");
     
         // Affiche la classe actuelle du conteneur pour vérifier le changement
         console.log("Before switch, classes: ", container.classList);
