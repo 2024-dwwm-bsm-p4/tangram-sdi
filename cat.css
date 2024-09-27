@@ -1,11 +1,18 @@
+.container.cat {
+    
+
+
 .squareRed {
     width: 75px;
     height: 75px;
-    background-color: red;
+    background-color: #DB4545;
     position: absolute;
     transform: rotate(45deg);
     top: 19.5%;
     left: 64%;
+    transition: all 0.5s ease-in-out;
+
+
 }
 
 .triangleGreen {
@@ -17,6 +24,8 @@
     transform: rotate(225deg);
     top: 42.5%;
     left: 61%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleOrange {
@@ -29,6 +38,8 @@
     transform: rotate(270deg);
     top: 10%;
     left: 66.5%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleYellow {
@@ -40,6 +51,8 @@
     transform: rotate(135deg);
     top: 44%;
     left: 56%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .trapezePurple {
@@ -50,6 +63,8 @@
     position: absolute;
     top: 77.5%;
     left: 24%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleLime {
@@ -61,6 +76,8 @@
     transform: rotate(90deg);
     top: 60%;
     left: 50%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleBlue {
@@ -68,9 +85,13 @@
     height: 0;
     border-top: 53px solid transparent;
     border-bottom: 53px solid transparent;
-    border-left: 53px solid #84c2f9;
+    border-left: 53px solid #1AA6D9;
     position: absolute;
     transform: rotate();
     top: 5%;
     left: 60.5%;
+    transition: all 0.5s ease-in-out;
+
+}
+
 }
