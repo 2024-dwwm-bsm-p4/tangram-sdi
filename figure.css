@@ -225,8 +225,9 @@ nav {
 
 .dark-mode {
     color: white;
-    background-color: black;
+    background: black;
     border: white;
+    transition: 1s;
 }
 
 .dark-mode .container{
