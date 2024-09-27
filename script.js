@@ -11,7 +11,7 @@
     
     // Boucle pour attribuer les noms des formes aux boutons
     for (let i = 0; i < navbuttons.length; i++) {
-        navbuttons[i].textContent = forms2[i];
+        
     
         // Écouteur d'événement pour chaque bouton
         navbuttons[i].addEventListener("click", () => {
