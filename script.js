@@ -1,3 +1,4 @@
+
     
     const element = document.querySelector("body");
     
@@ -76,3 +77,12 @@
         console.log("After switch, classes: ", container.classList);
     }
     
+
+document.querySelector('.darkmode').onclick = 
+toggleDarkMode;
+const body = document.body;
+
+function toggleDarkMode() {
+    body.classList.toggle('dark-mode');
+}
+
