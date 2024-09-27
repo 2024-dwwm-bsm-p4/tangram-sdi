@@ -1,5 +1,9 @@
-
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.querySelector(".container");
+    container.classList.add("turtle"); // Ajouter la classe "square" par défaut
+});
     
+
     const element = document.querySelector("body");
     
     // Récupération des balises bouton de la navbar
@@ -85,4 +89,3 @@ const body = document.body;
 function toggleDarkMode() {
     body.classList.toggle('dark-mode');
 }
-
