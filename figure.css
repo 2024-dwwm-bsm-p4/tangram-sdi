@@ -1,15 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    background-color: #ffffff;
     flex-wrap: wrap;
+    transition: 1s;
+    color: black;
 }
 
 header {
@@ -27,7 +23,6 @@ main {
 .container {
     min-width: 500px;
     min-height: 500px;
-    border: 5px solid;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -35,7 +30,9 @@ main {
     flex-direction: column;
     background-color: #f2f3f3;
     margin: 0 auto;
-    }
+    transition: 1s;
+
+}
 
 .container * {
     position: absolute;
@@ -90,4 +87,15 @@ main {
     border-top: 53px solid transparent;
     border-bottom: 53px solid transparent;
     border-left: 53px solid #84c2f9;
+}
+
+.dark-mode {
+    color: white;
+    background-color: black;
+    border: white;
+}
+
+.dark-mode .container{
+    background-color: rgb(65, 65, 65);
+    transition: 1s;
 }
