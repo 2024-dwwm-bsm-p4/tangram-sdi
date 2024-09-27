@@ -38,11 +38,28 @@ main {
     position: absolute;
 }
 
+.darkmode{
+    background-color: #C2FBD7;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: #008000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 200ms;
+      
+}
+
+
 
 .squareRed {
     width: 75px;
     height: 75px;
-    background-color: red;
+    background-color: #DB4545;
 }
 
 .triangleGreen {
@@ -55,7 +72,7 @@ main {
 .triangleOrange {
     width: 0;
     height: 0;
-    border-bottom: 53px solid orange;
+    border-bottom: 53px solid #D9B262;
     border-left: 53px solid transparent;
     border-right: 53px solid transparent;
 }
@@ -78,7 +95,7 @@ main {
     width: 0;
     height: 0;
     border-top: 150px solid transparent;
-    border-right: 150px solid #84f998;
+    border-right: 150px solid #56DBA0;
 }
 
 .triangleBlue {
@@ -86,7 +103,8 @@ main {
     height: 0;
     border-top: 53px solid transparent;
     border-bottom: 53px solid transparent;
-    border-left: 53px solid #84c2f9;
+
+    border-left: 53px solid #1AA6D9;
 }
 
 .dark-mode {
@@ -99,3 +117,4 @@ main {
     background-color: rgb(65, 65, 65);
     transition: 1s;
 }
+
