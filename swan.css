@@ -1,10 +1,14 @@
+.container.swan{
+
 .squareRed {
     width: 75px;
     height: 75px;
-    background-color: red;
+    background-color: #DB4545;
     transform: rotate(45deg);
     top: 40%;
     left: 27%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleGreen {
@@ -15,6 +19,8 @@
     transform: rotate(45deg);
     top: 64%;
     left: 23.5%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleOrange {
@@ -26,6 +32,8 @@
     transform: rotate(90deg);
     top: 53.5%;
     left: 18%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleYellow {
@@ -36,6 +44,8 @@
     transform: rotate(90deg);
     top: 60%;
     left: 34.6%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .trapezePurple {
@@ -45,6 +55,8 @@
     transform:rotate(90deg) skew(315deg);
     top: 26%;
     left: 30%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleLime {
@@ -55,6 +67,8 @@
     transform: rotate(45deg);
     top: 44%;
     left: 41%;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .triangleBlue {
@@ -62,8 +76,12 @@
     height: 0;
     border-top: 53px solid transparent;
     border-bottom: 53px solid transparent;
-    border-left: 53px solid #84c2f9;
+    border-left: 53px solid #1AA6D9;
     transform: rotate(45deg);
     left: 25.1%;
     top: 16%;
+    transition: all 0.5s ease-in-out;
+
+}
+
 }
